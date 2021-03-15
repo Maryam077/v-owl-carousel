@@ -1,8 +1,22 @@
 {
   "name": "owl-carousel-vue",
-  "version": "1.0.2",
-  "description": "Adaptaion of owl carousel js library",
-  "main": "webpack.config.js",
+  "description": "VueJS wrapper for Owl Carousel",
+  "version": "1.0.8",
+  "author": {
+    "name": "maryamraafat077@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/93gaurav93/v-owl-carousel/issues"
+  },
+  "keywords": [
+    "vuejs",
+    "carousel",
+    "owl-carousel",
+    "vue-components",
+    "vue-component",
+    "carousel-component"
+  ],
+  "bundleDependencies": false,
   "dependencies": {
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
@@ -10,6 +24,7 @@
     "owl.carousel": "^2.3.4",
     "style-loader": "^0.23.0"
   },
+  "deprecated": false,
   "devDependencies": {
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
@@ -26,25 +41,14 @@
     "webpack": "1.13.1",
     "webpack-merge": "^4.1.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "homepage": "https://github.com/93gaurav93/v-owl-carousel#readme",
+  "license": "MIT",
+  "main": "dist/v-owl-carousel.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maryam077/v-owl-carousel.git"
+    "url": "git+https://github.com/93gaurav93/v-owl-carousel.git"
   },
-  "keywords": [
-    "vue",
-    "owl-carousel",
-    "js",
-    "carousel"
-  ],
-  "bundleDependencies": false,
-  "deprecated": false,
-  "author": "maryam raafat",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Maryam077/v-owl-carousel/issues"
-  },
-  "homepage": "https://github.com/Maryam077/v-owl-carousel#readme"
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js"
+  }
 }
