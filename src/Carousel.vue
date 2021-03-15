@@ -27,11 +27,9 @@
       },
       props: {
         animateOut: {
-          type: String,
           default:'fadeOut'
           },
     		animateIn: {
-          type: String,
           default:"fadeIn"
           },
 			  smartSpeed: {
@@ -53,7 +51,6 @@
           default: true
         },
         navText: {
-          type: Array,
           default:['prev', 'next']
         },
         autoplay : {
