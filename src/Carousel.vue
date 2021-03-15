@@ -26,21 +26,25 @@
           }
       },
       props: {
+        animateOut: 'fadeOut',
+    		animateIn: 'fadeIn',
+			  smartSpeed: 500,
         items : {
-            default: 3
+          default: 3
         },
         margin : {
-            default: 0
+          default: 0
         },
         loop : {
-            default: false
+          default: false
         },
         center : {
             default: false
         },
         nav : {
-            default: true
+          default: true
         },
+        navText: ['prev', 'next'],
         autoplay : {
             default: false
         },

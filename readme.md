@@ -1,5 +1,5 @@
 
-[![npm](https://img.shields.io/npm/dt/v-owl-carousel.svg)](https://www.npmjs.com/package/v-owl-carousel)
+[![npm](https://img.shields.io/npm/dm/owl-carousel-vue.svg)](https://npmjs.com/package/owl-carousel-vue")
 
   ---
 
@@ -28,14 +28,14 @@
 
 
 
-`npm i v-owl-carousel` or `yarn add v-owl-carousel`
+`npm i  owl-carousel-vue` or `yarn add  owl-carousel-vue`
 
 
 
 ## Usage
 
 
-`import carousel from 'v-owl-carousel'`
+`import carousel from ' owl-carousel-vue'`
 
 
 ```
@@ -126,8 +126,21 @@ Currently following options are available.
 ##### *(More to come)*
 
 
+- ### animateOut
+type : `string`
 
+default : `fadeOut`
 
+- ### animateIn
+type : `string`
+
+default : `fadeIn`
+
+- ### smartSpeed
+
+type : `number`
+
+default : `500`
 
 - ### items
 
@@ -237,7 +250,11 @@ Default: `false`
 Show next/prev buttons.
 
 
+- ### navText
 
+type : `Array`
+
+default : `['prev', 'next']`
 
 
 - #### autoplay
@@ -453,4 +470,4 @@ Object containing responsive options. Can be set to false to remove responsive c
 
 
 
-[![NPM](https://nodei.co/npm/v-owl-carousel.png)](https://www.npmjs.com/package/v-owl-carousel)
+[![NPM](https://nodei.co/npm/owl-carousel-vue.png)](https://www.npmjs.com/package/owl-carousel-vue)
