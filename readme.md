@@ -1,5 +1,5 @@
 
-[![npm](https://img.shields.io/npm/dm/owl-carousel-vue.svg)](https://npmjs.com/package/owl-carousel-vue")
+[![npm](https://img.shields.io/npm/dm/owl-carousel-vuejs.svg?style=flat)](https://npmjs.com/package/owl-carousel-vuejs")
 
   ---
 
@@ -470,4 +470,4 @@ Object containing responsive options. Can be set to false to remove responsive c
 
 
 
-[![NPM](https://nodei.co/npm/owl-carousel-vue.png)](https://www.npmjs.com/package/owl-carousel-vue)
+[![NPM](https://nodei.co/npm/owl-carousel-vuejs.png)](https://www.npmjs.com/package/owl-carousel-vuejs)

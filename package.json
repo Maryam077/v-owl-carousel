@@ -1,10 +1,8 @@
 {
-  "name": "owl-carousel-vue",
+  "name": "owl-carousel-vuejs",
   "description": "VueJS wrapper for Owl Carousel",
-  "version": "1.0.8",
-  "author": {
-    "name": "maryamraafat077@gmail.com"
-  },
+  "version": "1.0.1",
+  "author": "maryamraafat077@gmail.com",
   "bugs": {
     "url": "https://github.com/93gaurav93/v-owl-carousel/issues"
   },
@@ -16,7 +14,6 @@
     "vue-component",
     "carousel-component"
   ],
-  "bundleDependencies": false,
   "dependencies": {
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
