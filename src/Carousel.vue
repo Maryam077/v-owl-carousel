@@ -27,10 +27,10 @@
       },
       props: {
         animateOut: {
-          default:'fadeOut'
+          default:false
           },
     		animateIn: {
-          default:"fadeIn"
+          default:false
           },
 			  smartSpeed: {
           default:500
@@ -51,7 +51,7 @@
           default: true
         },
         navText: {
-          default:['prev', 'next']
+          default:false
         },
         autoplay : {
             default: false
