@@ -26,14 +26,19 @@
           }
       },
       props: {
-        animateOut: {
-          default:'fadeOut'
-          },
-    		animateIn: {
-          default:"fadeIn"
-          },
-			  smartSpeed: {
-          default:500
+        animateOut : {
+          default() {
+            return "fadeIn"
+          }
+        },
+    		animateIn : {
+          default() {
+            return "fadeIn"
+          }         },
+			  smartSpeed : {
+          default(){
+            return 500
+          }
         },
         items : {
           default: 3
@@ -51,7 +56,9 @@
           default: true
         },
         navText: {
-          default:['prev', 'next']
+          default(){
+            return ['prev', 'next']
+          }
         },
         autoplay : {
             default: false
