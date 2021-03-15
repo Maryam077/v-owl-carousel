@@ -26,9 +26,17 @@
           }
       },
       props: {
-        animateOut: 'fadeOut',
-    		animateIn: 'fadeIn',
-			  smartSpeed: 500,
+        animateOut: {
+          type: String,
+          default:'fadeOut'
+          },
+    		animateIn: {
+          type: String,
+          default:"fadeIn"
+          },
+			  smartSpeed: {
+          default:500
+        },
         items : {
           default: 3
         },
@@ -44,7 +52,10 @@
         nav : {
           default: true
         },
-        navText: ['prev', 'next'],
+        navText: {
+          type: Array,
+          default:['prev', 'next']
+        },
         autoplay : {
             default: false
         },
@@ -93,11 +104,14 @@
 
       mounted : function() {
         const owl = $('#' + this.elementHandle).owlCarousel({
+            animateIn    : this.animateIn,
+            animateOut   : this.animateOut,
             items        : this.items,
             margin       : this.margin,
             loop         : this.loop,
             center       : this.center,
             nav          : this.nav,
+            navText      : this.navText,
             autoplay     : this.autoplay,
             autoplaySpeed: this.autoplaySpeed,
             rewind       : this.rewind,
